@@ -1,0 +1,65 @@
+/* Component */
+.OrderList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style the product grid */
+.ProductGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Increased gap */
+  margin-top: 30px; /* Increased margin-top */
+}
+
+/* Style individual product items */
+.ProductItem {
+  border: 1px solid #ddd;
+  padding: 30px; /* Increased padding */
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  flex: 0 0 calc(50% - 30px); /* Adjusted for larger size */
+  max-width: calc(50% - 30px); /* Adjusted for larger size */
+}
+
+/* Add hover effect */
+.ProductItem:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+/* Style product details */
+.ProductName {
+  font-weight: bold;
+  font-size: 24px; /* Increased font size */
+}
+
+.ProductBrand {
+  color: #555;
+  font-size: 18px; /* Increased font size */
+}
+
+.ProductPrice {
+  font-size: 36px; /* Increased font size */
+  color: #888;
+}
+
+/* Style the order button */
+.OrderButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Adjusted padding */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.OrderButton:hover {
+  background-color: darkgreen;
+}
