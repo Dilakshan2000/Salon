@@ -1,1 +1,1 @@
-"# Salon" 
+Our Salon Beauty System is a sophisticated web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). Our system is designed to revolutionize the way you manage your salon appointments and services, providing both clients and salon owners with an intuitive and efficient experience.
